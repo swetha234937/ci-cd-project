@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food App</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #f8f8f8;
+        }
+
+        header {
+            background: #ff4d4d;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: 160px;
+        }
+
+        .card h3 {
+            margin: 10px;
+        }
+
+        .card p {
+            margin: 10px;
+            color: gray;
+        }
+
+        .btn {
+            display: block;
+            background: #ff4d4d;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background: #e60000;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    🍔 Swetha's Food App
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <img src="https://source.unsplash.com/250x160/?pizza">
+        <h3>Pizza</h3>
+        <p>Cheesy delicious pizza</p>
+        <a href="#" class="btn">Order Now</a>
+    </div>
+
+    <div class="card">
+        <img src="https://source.unsplash.com/250x160/?burger">
+        <h3>Burger</h3>
+        <p>Juicy chicken burger</p>
+        <a href="#" class="btn">Order Now</a>
+    </div>
+
+    <div class="card">
+        <img src="https://source.unsplash.com/250x160/?biryani">
+        <h3>Biryani</h3>
+        <p>Spicy biryani special</p>
+        <a href="#" class="btn">Order Now</a>
+    </div>
+
+    <div class="card">
+        <img src="https://source.unsplash.com/250x160/?pasta">
+        <h3>Pasta</h3>
+        <p>Creamy Italian pasta</p>
+        <a href="#" class="btn">Order Now</a>
+    </div>
+
+</div>
+
+</body>
+</html>
